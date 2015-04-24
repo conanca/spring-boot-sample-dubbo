@@ -8,9 +8,12 @@ import java.io.IOException;
  * Hello world!
  */
 public class App {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, InterruptedException {
         ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("context-provider.xml");
         appContext.start();
-        System.in.read();
+        while (true){
+            Thread.sleep(5000);
+            System.out.println("alive...");
+        }
     }
 }
