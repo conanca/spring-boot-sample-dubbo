@@ -13,7 +13,7 @@
                     address="192.168.83.251:2181,192.168.83.252:2181,192.168.83.253:2181,192.168.83.254:2181"/>
 
     <!-- 端口由docker容器启动时，设置环境变量参数 DUBBO_PROVIDER_PORT 来指定 -->
-    <dubbo:protocol name="dubbo" port="${DUBBO_PROVIDER_PORT}"/>
+    <dubbo:protocol name="dubbo" host="${DUBBO_PROVIDER_HOST}" port="${DUBBO_PROVIDER_PORT}"/>
 
     <dubbo:service interface="com.xinhuanet.demo.DemoService" ref="demoService" timeout="10000" registry="test"/>
     <bean id="demoService" class="com.xinhuanet.demo.DemoServiceImpl"/>
