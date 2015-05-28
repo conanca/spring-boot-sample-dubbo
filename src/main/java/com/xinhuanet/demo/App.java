@@ -9,7 +9,7 @@ import java.io.IOException;
  */
 public class App {
     public static void main(String[] args) throws IOException, InterruptedException {
-        ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("context-provider.xml");
+        ClassPathXmlApplicationContext appContext = new ClassPathXmlApplicationContext("context-provider-test.xml");
         appContext.start();
         while (true){
             Thread.sleep(5000);
