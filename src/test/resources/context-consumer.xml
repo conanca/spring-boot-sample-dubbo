@@ -12,6 +12,6 @@
                     address="192.168.83.251:2181,192.168.83.252:2181,192.168.83.253:2181,192.168.83.254:2181"/>
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="demoService" interface="com.xinhuanet.demo.DemoService" timeout="10000" registry="test"/>
+    <dubbo:reference id="demoService" interface="com.dolplay.demo.DemoService" timeout="10000" registry="test"/>
 
 </beans>

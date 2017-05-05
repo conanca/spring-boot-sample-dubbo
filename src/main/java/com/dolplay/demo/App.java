@@ -1,4 +1,4 @@
-package com.xinhuanet.demo;
+package com.dolplay.demo;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

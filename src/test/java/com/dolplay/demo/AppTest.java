@@ -1,4 +1,4 @@
-package com.xinhuanet.demo;
+package com.dolplay.demo;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;

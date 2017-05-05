@@ -1,5 +1,5 @@
 FROM dockerfile/java:oracle-java8
-MAINTAINER gongchengdong <gongchengdong@news.com>
+MAINTAINER conanca <imconan@gmail.com>
 
 COPY target/demo-micro-service-0.1.jar /data/demo-micro-service-0.1.jar
 

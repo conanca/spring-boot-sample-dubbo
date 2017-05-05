@@ -15,7 +15,7 @@
     <!-- 端口由docker容器启动时，设置环境变量参数 DUBBO_PROVIDER_PORT 来指定 -->
     <dubbo:protocol name="dubbo" port="50099"/>
 
-    <dubbo:service interface="com.xinhuanet.demo.DemoService" ref="demoService" timeout="10000" registry="test"/>
-    <bean id="demoService" class="com.xinhuanet.demo.DemoServiceImpl"/>
+    <dubbo:service interface="com.dolplay.demo.DemoService" ref="demoService" timeout="10000" registry="test"/>
+    <bean id="demoService" class="com.dolplay.demo.DemoServiceImpl"/>
 
 </beans>
